@@ -1,4 +1,5 @@
-teamblueridge_wordpress_responsive_child_theme
-==============================================
+Team BlueRidge Child Theme
+==========================
 
-a wordpress responsive child theme developed by Hendrik Boone.. Logo should not be copied
+WordPress child theme based on the Responsive theme. Free of use (GPLv2 License).
+Copyright restrictions on the logo picture.
