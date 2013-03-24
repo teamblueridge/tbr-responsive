@@ -1,5 +1,6 @@
 Team BlueRidge Child Theme
 ==========================
 
-WordPress child theme based on the Responsive theme. Free of use (GPLv2 License).
+http://themeid.com/responsive-theme/
+WordPress child theme based on the Responsive theme. GPLv3 Licensed.
 Copyright restrictions on the logo picture.

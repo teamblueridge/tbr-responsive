@@ -2,7 +2,7 @@
 Theme Name: Team BlueRidge
 Theme URI: http://teamblueridge.com
 Description: This is the default theme for Team BlueRidge. It provides responsive design with touch-friendly menu's. This way the site looks great on every device. The theme features 4 menu's, many widgets places and lot's of theme options. You can easily change the logo, home page and social media links. For help check out <a href="http://themeid.com/help">ThemeID</a>. 
-Version: 1.0
+Version: 2.0
 Author: Henry_01 
 Author URI: http://forum.xda-developers.com/member.php?u=4425351
 Template: responsive
@@ -14,28 +14,47 @@ License URI: license.txt
 
 @import url("../responsive/style.css");
 
-
 /* General Layout */
-th, td, table {border:border: 1px solid #e5e5e5;}
-th {font-weight:bold}
+th, td, table {
+	border:border: 1px solid #e5e5e5;}
+th {
+	font-weight:bold}
 
-.home .widget-wrapper {border:none; -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none;}
+.home .widget-wrapper {
+	border:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;}
 
-body {background: #DCD7C0;background-image:url('../teamblueridge/images/background.jpg')}
+body {
+	background: #DCD7C0;
+	background-image:url('../teamblueridge/images/background.jpg')}
 
-#wrapper {background-color: #F5F3ED; border:none;}
+#wrapper {
+	background-color: #F5F3ED;
+	border:none;}
 
-.widget-wrapper { background-color: #F5F3ED; -webkit-box-shadow:0 0 10px #e5e5e5 inset; -moz-box-shadow:0 0 10px #e5e5e5 inset; box-shadow:0 0 10px #e5e5e5 inset; border: 1px solid #CECECE;}
+.widget-wrapper {
+	background-color: #F5F3ED;
+	-webkit-box-shadow:0 0 10px #e5e5e5 inset;
+	-moz-box-shadow:0 0 10px #e5e5e5 inset;
+	box-shadow:0 0 10px #e5e5e5 inset;
+	border: 1px solid #CECECE;}
 
-#featured {border:none; background-color: #F5F3ED; padding-bottom:20px;}
+#featured {
+	background-color: #F5F3ED;
+	border:none;
+	padding-bottom:20px;}
 
-.featured-title {font-size: 50px;}
+.featured-title {
+	font-size: 50px;}
 
-#featured p {font-size: 16px;}
+#featured p {
+	font-size: 16px;}
 
-.call-to-action a.button {font-size: 20px; padding: 10px 20px;}
-
-.jenkins {font-size: 18px; list-style-type:none;}
+.call-to-action a.button {
+	font-size: 20px;
+	padding: 10px 20px;}
 	
 /* Buttons and Boxes */	
 a.blue {
@@ -139,16 +158,19 @@ area:focus, input:focus, textarea:focus {
 	box-shadow:0 0 4px #8b4513 inset;
     border: 1px solid #8b4513;}
 
-/* Header Menu */
-.sb-toggle {background: url(images/select-icons.png) 0 6px no-repeat;}
+/* Menus */
+.sb-toggle {
+	background: url(images/select-icons.png) 0 6px no-repeat;}
 
-.sb-toggle-open {background: url(images/select-icons.png) 0 -45px no-repeat;}
+.sb-toggle-open {
+	background: url(images/select-icons.png) 0 -45px no-repeat;}
 
-.sb-holder {background-color: #005d7f;}
+.sb-holder {
+	background-color: #005d7f;}
 
-.menu, .menu a:hover, .menu .current_page_item a, .menu .current-menu-item a {
-	background-color:transparent !important;
-	background-image:none !important;
+ul.menu > li:hover, .menu, .menu a:hover, .menu .current_page_item a, .menu .current-menu-item a {
+	background-color:transparent;
+	background-image:none;
 	color: #007AA3;
 	margin: 0 auto;}
 
@@ -162,9 +184,12 @@ area:focus, input:focus, textarea:focus {
 	line-height:none;
 	padding: 0 0.5em;}
 
-.menu {float:right; margin-top: -70px;}	
+.menu {
+	float:right;
+	margin-top: -70px;}	
 
-.menu ul {min-width: 6em;}
+.menu ul {
+	min-width: 6em;}
 
 .menu li li {
 	background-color: #F5F3ED;
@@ -184,12 +209,19 @@ area:focus, input:focus, textarea:focus {
 	background-image: none;
 	color: #996633;}
 
-a, a:hover, a:focus, a:active {color: #996633;}
+a, a:hover, a:focus, a:active {
+	color: #996633;}
 
-/* Footer Menu */
-.footer-menu {margin-top: -20px; margin-bottom: -20px; margin-left: 0; padding: 0;}
+.footer-menu {
+	margin-top: -20px;
+	margin-bottom: -20px;
+	margin-left: 0;
+	padding: 0;}
 
-.footer-menu li a {border-left:none; color: #333; padding: 0 8px;}
+.footer-menu li a {
+	border-left:none;
+	color: #333;
+	padding: 0 8px;}
 
 /* Footer */
 #footer {
@@ -202,7 +234,7 @@ a, a:hover, a:focus, a:active {color: #996633;}
 	font-weight: 800;
 	color: #444;}
 
-/* News */
+/* Blog */
 #respond {
 	-moz-border-radius:none !important;
 	-webkit-border-radius:none !important;
@@ -285,7 +317,6 @@ a, a:hover, a:focus, a:active {color: #996633;}
     only screen and (-o-min-device-pixel-ratio:3/2), 
     only screen and (-webkit-min-device-pixel-ratio:1.5), 
     only screen and (min-device-pixel-ratio:1.5) {
-    
     body {}
 }
 
