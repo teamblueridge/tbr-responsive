@@ -15,6 +15,6 @@ Changelog
 * Version 2: big update after breakup of parent theme. Huge cleanup and update but no added features.
 * Version 1: initial release
 
-[logo]: http://teamblueridge.com/wp-content/themes/teamblueridge/default-logo.png
+[logo]: http://teamblueridge.org/wp-content/themes/teamblueridge/default-logo.png
 [themeid]: http://themeid.com/responsive-theme/
-[website]: http://teamblueridge.com
+[website]: http://teamblueridge.org
