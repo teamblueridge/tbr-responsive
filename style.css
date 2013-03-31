@@ -2,7 +2,7 @@
 Theme Name: Team BlueRidge
 Theme URI: http://teamblueridge.com
 Description: This is the default theme for Team BlueRidge. It provides responsive design with touch-friendly menu's. This way the site looks great on every device. The theme features 4 menu's, many widgets places and lot's of theme options. You can easily change the logo, home page and social media links. For help check out <a href="http://themeid.com/help">ThemeID</a>. 
-Version: 2.0
+Version: 2.1
 Author: Henry_01 
 Author URI: http://forum.xda-developers.com/member.php?u=4425351
 Template: responsive
@@ -39,7 +39,8 @@ body {
 	-webkit-box-shadow:0 0 10px #e5e5e5 inset;
 	-moz-box-shadow:0 0 10px #e5e5e5 inset;
 	box-shadow:0 0 10px #e5e5e5 inset;
-	border: 1px solid #CECECE;}
+	border: 1px solid #CECECE;
+	}
 
 #featured {
 	background-color: #F5F3ED;
@@ -236,15 +237,15 @@ a, a:hover, a:focus, a:active {
 
 /* Blog */
 #respond {
-	-moz-border-radius:none !important;
-	-webkit-border-radius:none !important;
-	border-radius:none !important;
 	background-color: #F5F3ED !important;
-	background-image:none;
-	border:none !important;}
+	background-image: none;
+	-webkit-box-shadow:0 0 10px #e5e5e5 inset;
+	-moz-box-shadow:0 0 10px #e5e5e5 inset;
+	box-shadow:0 0 10px #e5e5e5 inset;
+	border: 1px solid #CECECE;}
 
 .navigation {
-	color: #111;
+	color: #fff;
 	display: block;
 	font-size: 14px;
 	height: 28px;
@@ -279,37 +280,17 @@ a, a:hover, a:focus, a:active {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e58541, endColorstr=#8b4513);
 	text-decoration: none;}
 
+#respond {padding: 5px 20px 5px !important; margin: none !important}
+
 .commentlist {border: none !important;}
 .commentlist li, .commentlist li.alt {background-color: #F5F3ED;}
 
-.reply a {
-	float:right;
-	background-color: #8b4513 !important;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#d66a1d), to(#8b4513));
-	background-image: -webkit-linear-gradient(top, #d66a1d, #8b4513);
-	background-image: -moz-linear-gradient(top, #d66a1d, #8b4513);
-	background-image: -ms-linear-gradient(top, #d66a1d, #8b4513);
-	background-image: -o-linear-gradient(top, #d66a1d, #8b4513);
-	background-image: linear-gradient(top, #d66a1d, #8b4513);
-	border: 1px solid #4f270b !important;
-	color: #fff;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#d66a1d, endColorstr=#8b4513);
-	padding: 2px 6px;
-	font-size: 13px;
-	font-weight: bold !important;}
+.comment-metadata, .comment-metadata a {font-size: 12px !important; color: #999 !important}
+.comment-answer, .comment-answer a {float:right; font-weight:bold !important}
 
-.reply a:hover, .navigation a:active {
-	background-color: #8b4513;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#e58541), to(#8b4513));
-	background-image: -webkit-linear-gradient(top, #e58541, #8b4513);
-	background-image: -moz-linear-gradient(top, #e58541, #8b4513);
-	background-image: -ms-linear-gradient(top, #e58541, #8b4513);
-	background-image: -o-linear-gradient(top, #e58541, #8b4513);
-	background-image: linear-gradient(top, #e58541, #8b4513);
-	border: 1px solid #4f270b;
-	color: #fff;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e58541, endColorstr=#8b4513);
-	text-decoration: none;}
+#reply-title {text-align: center;}
+#cancel-comment-reply-link {font-size: 16px; color: #996633;}
+
 
 /* Responsive Design */
 @media
