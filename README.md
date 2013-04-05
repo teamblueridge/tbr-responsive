@@ -9,7 +9,8 @@ For more info head over to the [website].
 
 Changelog
 ---------
-* Version 2.1: big restyle of the commenting layout . Deleted post navigation in single posts.
+* Version 2.2: shortcode added for really-simple-issue-tracker. Allows table-form bugtracker next to a widget.
+* Version 2.1: big restyle of the commenting layout. Deleted post navigation in single posts.
 * Version 2: parent theme update resulted in site breakup. updated accordingly and cleaned up.
 * Version 1: initial release
 
