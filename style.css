@@ -332,5 +332,12 @@ a, a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 650px) { 
-    #footer {text-align: center;}
+    #footer {text-align: center;}  
+	table {display: block; position: relative; width: 100%; }
+	thead {display: block; float: left; }
+	tbody {display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+	thead tr {display: block; }
+	th {display: block; }
+	tbody tr {display: inline-block; vertical-align: top; }
+	td {display: block;}
 }
