@@ -283,9 +283,23 @@ a, a:hover, a:focus, a:active {
 #respond {padding: 5px 20px 5px !important; margin: none !important}
 
 .commentlist {border: none !important;}
-.commentlist li, .commentlist li.alt {background-color: #F5F3ED;}
+
+.commentlist li, .commentlist li.alt {background-color: #F5F3ED;
+	-webkit-box-shadow:0 0 10px #e5e5e5 inset;
+	-moz-box-shadow:0 0 10px #e5e5e5 inset;
+	box-shadow:0 0 10px #e5e5e5 inset;
+	border: 1px solid #CECECE;
+	margin-bottom: 10px;}
+
+.commentlist .bypostauthor {border: 1px solid #996633 !important;
+	-webkit-box-shadow:0 0 5px #A37547 inset !important;
+	-moz-box-shadow:0 0 5px #A37547 inset !important;
+	box-shadow:0 0 5px #A37547 inset !important;}
 
 .comment-metadata, .comment-metadata a {font-size: 12px !important; color: #999 !important}
+
+.comment-body p {margin: 0.4em 0 !important;}
+
 .comment-answer, .comment-answer a {float:right; font-weight:bold !important}
 
 #reply-title {text-align: center;}
