@@ -68,19 +68,15 @@ $responsive_options = responsive_get_options();
                 if (!empty($responsive_options['facebook_uid'])) echo '<li class="facebook-icon"><a href="' . $responsive_options['facebook_uid'] . '">'
                     .'<img src="' . get_stylesheet_directory_uri() . '/icons/facebook-icon.png" width="32" height="32" alt="Facebook">'
                     .'</a></li>';
-  
-                if (!empty($responsive_options['linkedin_uid'])) echo '<li class="linkedin-icon"><a href="' . $responsive_options['linkedin_uid'] . '">'
-                    .'<img src="' . get_stylesheet_directory_uri() . '/icons/linkedin-icon.png" width="32" height="32" alt="LinkedIn">'
-                    .'</a></li>';
-					
+
                 if (!empty($responsive_options['youtube_uid'])) echo '<li class="youtube-icon"><a href="' . $responsive_options['youtube_uid'] . '">'
                     .'<img src="' . get_stylesheet_directory_uri() . '/icons/youtube-icon.png" width="32" height="32" alt="YouTube">'
                     .'</a></li>';
-					
-                if (!empty($responsive_options['stumble_uid'])) echo '<li class="stumble-upon-icon"><a href="' . $responsive_options['stumble_uid'] . '">'
-                    .'<img src="' . get_stylesheet_directory_uri() . '/icons/stumble-upon-icon.png" width="32" height="32" alt="StumbleUpon">'
-                    .'</a></li>';
-					
+                    
+                if (!empty($responsive_options['github_uid'])) echo '<li class="github-icon"><a href="' . $responsive_options['github_uid'] . '">'
+                    .'<img src="' . get_stylesheet_directory_uri() . '/icons/github-icon.png" width="32" height="32" alt="YouTube">'
+                    .'</a></li>';   
+	
                 if (!empty($responsive_options['rss_uid'])) echo '<li class="rss-feed-icon"><a href="' . $responsive_options['rss_uid'] . '">'
                     .'<img src="' . get_stylesheet_directory_uri() . '/icons/rss-feed-icon.png" width="32" height="32" alt="RSS Feed">'
                     .'</a></li>';
@@ -88,25 +84,13 @@ $responsive_options = responsive_get_options();
                 if (!empty($responsive_options['google_plus_uid'])) echo '<li class="google-plus-icon"><a href="' . $responsive_options['google_plus_uid'] . '">'
                     .'<img src="' . get_stylesheet_directory_uri() . '/icons/googleplus-icon.png" width="32" height="32" alt="Google Plus">'
                     .'</a></li>';
-					
-                if (!empty($responsive_options['instagram_uid'])) echo '<li class="instagram-icon"><a href="' . $responsive_options['instagram_uid'] . '">'
-                    .'<img src="' . get_stylesheet_directory_uri() . '/icons/instagram-icon.png" width="32" height="32" alt="Instagram">'
-                    .'</a></li>';
-					
-                if (!empty($responsive_options['pinterest_uid'])) echo '<li class="pinterest-icon"><a href="' . $responsive_options['pinterest_uid'] . '">'
-                    .'<img src="' . get_stylesheet_directory_uri() . '/icons/pinterest-icon.png" width="32" height="32" alt="Pinterest">'
-                    .'</a></li>';
-					
-                if (!empty($responsive_options['yelp_uid'])) echo '<li class="yelp-icon"><a href="' . $responsive_options['yelp_uid'] . '">'
-                    .'<img src="' . get_stylesheet_directory_uri() . '/icons/yelp-icon.png" width="32" height="32" alt="Yelp!">'
+	
+                if (!empty($responsive_options['paypal_uid'])) echo '<li class="paypal-icon"><a href="' . $responsive_options['paypal_uid'] . '">'
+                    .'<img src="' . get_stylesheet_directory_uri() . '/icons/paypal-icon.png" width="32" height="32" alt="PayPal">'
                     .'</a></li>';
 					
                 if (!empty($responsive_options['vimeo_uid'])) echo '<li class="vimeo-icon"><a href="' . $responsive_options['vimeo_uid'] . '">'
                     .'<img src="' . get_stylesheet_directory_uri() . '/icons/vimeo-icon.png" width="32" height="32" alt="Vimeo">'
-                    .'</a></li>';
-					
-                if (!empty($responsive_options['foursquare_uid'])) echo '<li class="foursquare-icon"><a href="' . $responsive_options['foursquare_uid'] . '">'
-                    .'<img src="' . get_stylesheet_directory_uri() . '/icons/foursquare-icon.png" width="32" height="32" alt="foursquare">'
                     .'</a></li>';
              
                 echo '</ul><!-- end of .social-icons -->';

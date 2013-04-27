@@ -2534,18 +2534,14 @@ table.cart td.actions .coupon .input-text {
 	text-align: right;
 }
 
-#footer .yelp-icon,
+#footer .paypal-icon,
 #footer .vimeo-icon, 
 #footer .youtube-icon, 
 #footer .twitter-icon,
 #footer .facebook-icon, 
-#footer .linkedin-icon, 
 #footer .rss-feed-icon, 
-#footer .instagram-icon,
-#footer .pinterest-icon, 
-#footer .foursquare-icon,
 #footer .google-plus-icon, 
-#footer .stumble-upon-icon {
+#footer .github-icon {
 	display: inline;
 	margin: 1px;
 	padding-left: 3px;

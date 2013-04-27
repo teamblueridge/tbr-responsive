@@ -489,23 +489,17 @@ function responsive_theme_options_do_page() {
                         <input id="responsive_theme_options[facebook_uid]" class="regular-text" type="text" name="responsive_theme_options[facebook_uid]" value="<?php if (!empty($responsive_options['facebook_uid'])) echo esc_url($responsive_options['facebook_uid']); ?>" />
                         <label class="description" for="responsive_theme_options[facebook_uid]"><?php _e('Enter your Facebook URL', 'responsive'); ?></label>
                     </div><!-- end of .grid col-620 -->
-                
-                <div class="grid col-300"><?php _e('LinkedIn', 'responsive'); ?></div><!-- end of .grid col-300 -->
-                    <div class="grid col-620 fit">
-                        <input id="responsive_theme_options[linkedin_uid]" class="regular-text" type="text" name="responsive_theme_options[linkedin_uid]" value="<?php if (!empty($responsive_options['linkedin_uid'])) echo esc_url($responsive_options['linkedin_uid']); ?>" /> 
-                        <label class="description" for="responsive_theme_options[linkedin_uid]"><?php _e('Enter your LinkedIn URL', 'responsive'); ?></label>
-                    </div><!-- end of .grid col-620 -->
-                    
+ 
                 <div class="grid col-300"><?php _e('YouTube', 'responsive'); ?></div><!-- end of .grid col-300 -->
                     <div class="grid col-620 fit">
                         <input id="responsive_theme_options[youtube_uid]" class="regular-text" type="text" name="responsive_theme_options[youtube_uid]" value="<?php if (!empty($responsive_options['youtube_uid'])) echo esc_url($responsive_options['youtube_uid']); ?>" /> 
                         <label class="description" for="responsive_theme_options[youtube_uid]"><?php _e('Enter your YouTube URL', 'responsive'); ?></label>
                     </div><!-- end of .grid col-620 -->
                     
-                <div class="grid col-300"><?php _e('StumbleUpon', 'responsive'); ?></div><!-- end of .grid col-300 -->
+                <div class="grid col-300"><?php _e('GitHub', 'responsive'); ?></div><!-- end of .grid col-300 -->
                     <div class="grid col-620 fit">
-                        <input id="responsive_theme_options[stumble_uid]" class="regular-text" type="text" name="responsive_theme_options[stumble_uid]" value="<?php if (!empty($responsive_options['stumble_uid'])) echo esc_url($responsive_options['stumble_uid']); ?>" /> 
-                        <label class="description" for="responsive_theme_options[youtube_uid]"><?php _e('Enter your StumbleUpon URL', 'responsive'); ?></label>
+                        <input id="responsive_theme_options[github_uid]" class="regular-text" type="text" name="responsive_theme_options[github_uid]" value="<?php if (!empty($responsive_options['github_uid'])) echo esc_url($responsive_options['github_uid']); ?>" /> 
+                        <label class="description" for="responsive_theme_options[github_uid]"><?php _e('Enter your GitHub URL', 'responsive'); ?></label>
                     </div><!-- end of .grid col-620 -->
                     
                 <div class="grid col-300"><?php _e('RSS Feed', 'responsive'); ?></div><!-- end of .grid col-300 -->
@@ -519,35 +513,17 @@ function responsive_theme_options_do_page() {
                         <input id="responsive_theme_options[google_plus_uid]" class="regular-text" type="text" name="responsive_theme_options[google_plus_uid]" value="<?php if (!empty($responsive_options['google_plus_uid'])) echo esc_url($responsive_options['google_plus_uid']); ?>" />  
                         <label class="description" for="responsive_theme_options[google_plus_uid]"><?php _e('Enter your Google+ URL', 'responsive'); ?></label>
                     </div><!-- end of .grid col-620 -->
-                    
-                <div class="grid col-300"><?php _e('Instagram', 'responsive'); ?></div><!-- end of .grid col-300 -->
+    
+                <div class="grid col-300"><?php _e('PayPal', 'responsive'); ?></div><!-- end of .grid col-300 -->
                     <div class="grid col-620 fit">
-                        <input id="responsive_theme_options[instagram_uid]" class="regular-text" type="text" name="responsive_theme_options[instagram_uid]" value="<?php if (!empty($responsive_options['instagram_uid'])) echo esc_url($responsive_options['instagram_uid']); ?>" />  
-                        <label class="description" for="responsive_theme_options[instagram_uid]"><?php _e('Enter your Instagram URL', 'responsive'); ?></label>
-                    </div><!-- end of .grid col-620 -->
-                    
-                <div class="grid col-300"><?php _e('Pinterest', 'responsive'); ?></div><!-- end of .grid col-300 -->
-                    <div class="grid col-620 fit">
-                        <input id="responsive_theme_options[pinterest_uid]" class="regular-text" type="text" name="responsive_theme_options[pinterest_uid]" value="<?php if (!empty($responsive_options['pinterest_uid'])) echo esc_url($responsive_options['pinterest_uid']); ?>" />  
-                        <label class="description" for="responsive_theme_options[pinterest_uid]"><?php _e('Enter your Pinterest URL', 'responsive'); ?></label>
-                    </div><!-- end of .grid col-620 -->
-                    
-                <div class="grid col-300"><?php _e('Yelp!', 'responsive'); ?></div><!-- end of .grid col-300 -->
-                    <div class="grid col-620 fit">
-                        <input id="responsive_theme_options[yelp_uid]" class="regular-text" type="text" name="responsive_theme_options[yelp_uid]" value="<?php if (!empty($responsive_options['yelp_uid'])) echo esc_url($responsive_options['yelp_uid']); ?>" />  
-                        <label class="description" for="responsive_theme_options[yelp_uid]"><?php _e('Enter your Yelp! URL', 'responsive'); ?></label>
+                        <input id="responsive_theme_options[paypal_uid]" class="regular-text" type="text" name="responsive_theme_options[paypal_uid]" value="<?php if (!empty($responsive_options['paypal'])) echo esc_url($responsive_options['paypal_uid']); ?>" />  
+                        <label class="description" for="responsive_theme_options[paybal_uid]"><?php _e('Enter your PayPal URL', 'responsive'); ?></label>
                     </div><!-- end of .grid col-620 -->
                     
                 <div class="grid col-300"><?php _e('Vimeo', 'responsive'); ?></div><!-- end of .grid col-300 -->
                     <div class="grid col-620 fit">
                         <input id="responsive_theme_options[vimeo_uid]" class="regular-text" type="text" name="responsive_theme_options[vimeo_uid]" value="<?php if (!empty($responsive_options['vimeo_uid'])) echo esc_url($responsive_options['vimeo_uid']); ?>" />  
                         <label class="description" for="responsive_theme_options[vimeo_uid]"><?php _e('Enter your Vimeo URL', 'responsive'); ?></label>
-                    </div><!-- end of .grid col-620 -->
-                    
-                <div class="grid col-300"><?php _e('foursquare', 'responsive'); ?></div><!-- end of .grid col-300 -->
-                    <div class="grid col-620 fit">
-                        <input id="responsive_theme_options[foursquare_uid]" class="regular-text" type="text" name="responsive_theme_options[foursquare_uid]" value="<?php if (!empty($responsive_options['foursquare_uid'])) echo esc_url($responsive_options['foursquare_uid']); ?>" />  
-                        <label class="description" for="responsive_theme_options[foursquare_uid]"><?php _e('Enter your foursquare URL', 'responsive'); ?></label>
                         <p class="submit">
 						<?php submit_button( __( 'Save Options', 'responsive' ), 'primary', 'responsive_theme_options[submit]', false ); ?>
 						<?php submit_button( __( 'Restore Defaults', 'responsive' ), 'secondary', 'responsive_theme_options[reset]', false ); ?>
