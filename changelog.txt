@@ -8,6 +8,17 @@ Changelog Legend:
 [x] = Deleted
 [!] = Bugs
 
+(04/16/2013) - Major Improvemnts - Version 2.0.1
+[!] Upstream fixes
+
+----
+
+(04/16/2013) - Major Improvemnts - Version 2.0.0
+[+] Integrated child theme
+[+] Responsive tables
+
+----
+
 (03/13/2013) - Major Improvemnts - Version 1.9.0
 
 [+] Layout templates for posts

@@ -28,7 +28,15 @@ get_header();
 			
 	<?php 
 	global $wp_query, $paged;
-	$paged = ( get_query_var( 'page' ) ? get_query_var( 'page' ) : 1 );
+	if( get_query_var( 'paged' ) ) {
+	$paged = get_query_var( 'paged' );
+	}
+	elseif( get_query_var( 'page' ) ) {
+	$paged = get_query_var( 'page' );
+	}
+	else {
+	$paged = 1;
+	}
 	$blog_query = new WP_Query( array( 'post_type' => 'post', 'paged' => $paged ) );
 	$temp_query = $wp_query;
 	$wp_query = null;

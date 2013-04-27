@@ -408,8 +408,8 @@ function responsive_breadcrumb_lists() {
 	$after       = '</span>'; // tag after the current crumb
 	/* === END OF OPTIONS === */
 
-	global $post;
-	$homeLink = get_bloginfo('url') . '/';
+	global $post, $paged, $page;
+	$homeLink = home_url('/');
 	$linkBefore = '<span typeof="v:Breadcrumb">';
 	$linkAfter = '</span>';
 	$linkAttr = ' rel="v:url" property="v:title"';
@@ -512,7 +512,7 @@ function responsive_breadcrumb_lists() {
 
 		}if ( get_query_var('paged') ) {
 			if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
-			echo __('Page','responsive') . ' ' . get_query_var('paged');
+			echo $delimiter . sprintf( __( 'Page %s', 'responsive' ), max( $paged, $page ) );;
 			if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
 		}
 
@@ -522,6 +522,8 @@ function responsive_breadcrumb_lists() {
 } // end responsive_breadcrumb_lists
 
 endif;
+
+remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 // Loading our own favicon
 function tbr_favicon() { ?><link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri() ?>/images/favicon.ico"><?php }
