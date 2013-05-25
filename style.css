@@ -1210,7 +1210,7 @@ form div {
 }
 
 #featured p {
-	font-size: 16px;
+	font-size: 16px !important;
 	font-weight: 200;
 	line-height: 27px;
 	padding: 0 40px 0 40px;
