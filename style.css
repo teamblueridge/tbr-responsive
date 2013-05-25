@@ -2701,7 +2701,7 @@ BDO[DIR="rtl"] {
 	
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 500px) {
 
 	body {}
 
@@ -2868,18 +2868,13 @@ BDO[DIR="rtl"] {
 @media screen and (max-width: 320px) {
 	
 	body {}
-	
-	#featured p {
-		font-size: 12px;
-		line-height: 1.5em;
-	}
 
 	.featured-title {
 		font-size: 35px;
 	}
 	
 	.featured-subtitle {
-		font-size: 15px;
+		font-size: 20px;
 	}
 
 	.call-to-action a.button {
@@ -2899,18 +2894,13 @@ BDO[DIR="rtl"] {
 @media screen and (max-width: 240px) {
 	
 	body {}
-	
-	#featured p {
-		font-size: 11px;
-		line-height: 1.5em;
-	}
 
 	.featured-title {
 		font-size: 20px;
 	}
 	
 	.featured-subtitle {
-		font-size: 11px;
+		font-size: 15px;
 	}
 
 	.call-to-action a.button {
