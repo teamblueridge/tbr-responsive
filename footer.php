@@ -56,7 +56,7 @@ $responsive_options = responsive_get_options();
             </a>
         </div><!-- end of .copyright -->
         
-        <div class="grid col-300 scroll-top"></div>
+        <div class="grid col-300 scroll-top">Crafted by <a href="http://www.webegance.be" target="_blank">Webegance</a></div>
         
         <div class="grid col-300 fit powered">
                 <?php echo '<ul class="social-icons">';
