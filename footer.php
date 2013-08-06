@@ -36,8 +36,6 @@ $responsive_options = responsive_get_options();
     <div id="footer-wrapper">
     
         <div class="grid col-940">
-        
-        <div class="grid col-540">
 		<?php if (has_nav_menu('footer-menu', 'responsive')) { ?>
 	        <?php wp_nav_menu(array(
 				    'container'       => '',
@@ -47,18 +45,15 @@ $responsive_options = responsive_get_options();
 					); 
 				?>
          <?php } ?>
-         </div><!-- end of col-540 -->
-                  </div><!-- end of col-940 -->
-         <?php get_sidebar('colophon'); ?>
-        <div class="grid col-300 copyright">
+        </div><!-- end of col-940 -->
+        <?php get_sidebar('colophon'); ?>
+        <div class="grid col-460 copyright">
             Copyleft <?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                 <?php bloginfo('name'); ?>
             </a>
         </div><!-- end of .copyright -->
         
-        <div class="grid col-300 scroll-top"></div>
-        
-        <div class="grid col-300 fit powered">
+        <div class="grid col-460 fit powered">
                 <?php echo '<ul class="social-icons">';
 					
                 if (!empty($responsive_options['twitter_uid'])) echo '<li class="twitter-icon"><a href="' . $responsive_options['twitter_uid'] . '">'

@@ -282,10 +282,6 @@ sub {
 	width: 48.936170212766%;
 }
 
-.col-540 {
-	width: 57.446808510638%;
-}
-
 .col-620 {
 	width: 65.957446808511%;
 }
@@ -2028,6 +2024,7 @@ ul.menu > li:hover {
 .footer-menu li {
 	display: inline;
 	list-style-type: none;
+	text-align: center;
 }
 
 .footer-menu li a {
@@ -2741,7 +2738,6 @@ BDO[DIR="rtl"] {
 	.footer-menu li {
 		float: none;
 		font-size: 11px;
-		text-align: center;
 	}
 	
 	.tinynav {
@@ -2844,7 +2840,6 @@ BDO[DIR="rtl"] {
 	.footer-menu li, 
 	.sub-header-menu li {
 		float: none;
-		text-align: center;
 		text-rendering: optimizeSpeed;
 	}
 	
